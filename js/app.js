@@ -29,6 +29,7 @@ $(document).ready(function() {
     console.log(tilePairs);
 
     var gameBoard = $('#game-board');
+    
     var row = $(document.createElement('div'));var img;
     var img;
     _.forEach(tilePairs, function(tile, elemIndex) {
