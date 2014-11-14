@@ -24,7 +24,7 @@ header h1 {
 header h2 {
     white-space: nowrap;
     font-style: normal;
-    font-size: 32px;
+    font-size: 30px;
     color: gold;
     font-family: 'Open Sans', sans-serif;
 }
@@ -32,9 +32,7 @@ header h2 {
 .container {
     max-width: 724px;
     padding: 0;
-    margin-bottom: 5em;
-    margin-left:auto;
-    margin-right:auto;
+    margin-bottom: 15em;
 }
 
 .tiles {
