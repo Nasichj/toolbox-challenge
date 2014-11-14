@@ -1,11 +1,12 @@
 
-
-@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Sonsie+One);
 
 body {
-    background: #FAF9C5;
+    background-image: url(http://trickvilla.com/wp-content/uploads/Wood-Background-Image.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -16,21 +17,24 @@ header {
 header h1 {
     white-space: nowrap;
     font-size: 3vw;
-    font-family: 'Permanent Marker', cursive;
-    color: red;
+    font-family: 'Play, 700;
+    color: #2bffa5;
 }
 
 header h2 {
     white-space: nowrap;
     font-style: normal;
     font-size: 2vw;
-    color: blue;
+    color: gold;
     font-family: 'Open Sans', sans-serif;
 }
 
 .container {
     max-width: 724px;
     padding: 0;
+    margin-bottom: 5em;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .tiles {
@@ -54,11 +58,11 @@ header h2 {
 }
 
 .selected {
-    border: 2px solid yellow;
+    border: 2px solid green;
 }
 
 .matched {
-    border: 2px solid green;
+    border: 2px solid rgba(30, 211, 255, 0.79);
 }
 
 .mismatched {
@@ -72,10 +76,12 @@ header h2 {
 .game-info p {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0px;
+    color: #f5f5f5;
+    font-weight: bold;
 }
 
 #win-message {
-    color: green;
+    color: #2bffa5;
     padding-top: 15px;
     text-align: center;
     font-size: 32px;
@@ -94,7 +100,7 @@ header h2 {
 
 @media(min-width: 980px) {
     header h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     header h2 {
