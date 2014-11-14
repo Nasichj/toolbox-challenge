@@ -16,7 +16,7 @@ header {
 
 header h1 {
     white-space: nowrap;
-    font-size: 3vw;
+    font-size: 32px;
     font-family: 'Play, 700;
     color: #2bffa5;
 }
@@ -24,7 +24,7 @@ header h1 {
 header h2 {
     white-space: nowrap;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 32px;
     color: gold;
     font-family: 'Open Sans', sans-serif;
 }
