@@ -1,4 +1,4 @@
-"use strict";
+ "use strict";
 
 var firstTile = null;
 var secondTile = null;
