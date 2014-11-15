@@ -6,7 +6,7 @@ var pics = [];
 var userCanClick = true;
 var timer = null;
 
-// Makes array of 32 possible usable pictures
+// Makes array of the 32 pictures
 for (var i = 1; i < 33; i++) {
     pics.push(i);
 }
@@ -85,13 +85,12 @@ function onTileClick() {
                     clearInterval(timer);
                     $("#win-message").show();
                 } else {
-                    // No win, doesnt flip tiles back over
+                    // No win,flip tiles back over
                     firstTile = null;
                     userCanClick = true;
                 }
             } else {
-                // Not a match
-                // Increments mismatch counter
+                // Not a match, increments mismatch counter
                 var mismatchElement = $("#mismatches");
                 var mismatches = parseInt(mismatchElement.html());
                 mismatchElement.html(mismatches + 1);
